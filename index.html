@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylefonts.css">        
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/jquery.datetimepicker.min.css">    
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<header class="form-header">
+    <div class="container__page">
+        <div class="container">
+            <div class="form-header__inner">
+                <div class="form-header__inner-logo">
+                    <img class="form-logo" src="images/logo.svg">
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<section class="form-mine">
+    <div class="container__page">
+    <a class="form-arrow" href=""></a>
+    <span class="form-arrow-span"></span>
+        <div class="container">
+            <h1 class="form-h1">Company Information</h1>
+            <div class="form-dots__wrap">
+                <div class="form-dots__item red past"><span>1</span></div>
+                <div class="form-dots__item red"><span>2</span></div>
+                <div class="form-dots__item"><span>3</span></div>
+                <div class="form-dots__item"><span>4</span></div>
+                <div class="form-dots__item"><span>5</span></div>
+            </div>
+            <p class="form-mine__text-top">Tempus imperdiet nulla malesuada pellentesque elit eget gravida. Pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl. Lectus arcu bibendum at varius vel pharetra. In hendrerit gravida rutrum quisque non tellus orci ac auctor.</p>
+            <p class="input-headline top">2.1 Customer Geography</p>
+            <p class="input-subheadline">Top 5 customer countries, together with indication of approximate percentile distribution:</p>
+            <div class="form-mine__input-wrap withbtn">
+                <div class="form-mine__input-item wide">
+                    <p class="input-title">Location</p>
+                    <img class="exclam-img" src="images/exclamation.svg" alt="">
+                    <div class="form-select-wrap">
+                        <select name="select-country" id="" class="form-select">
+                            <option value="1">Urna molestie</option>
+                            <option value="2">22ffggffgfggf</option>
+                            <option value="3">33hhhgghhhg</option>
+                            <option value="4">44gfffgjkkjjk</option>
+                        </select>
+                    </div>    
+                </div>
+                <div class="form-mine__input-item narrow">
+                    <p class="input-title">Percentage</p>
+                    <img class="exclam-img" src="images/exclamation.svg" alt="">
+                    <input class="form-input" type="text" placeholder="ex. 15%">
+                </div>
+            </div>
+            <div class="form-mine__add-item-wrap">
+                <button class="form-mine__add-item"><span>&plus;</span> Add another item</button>
+            </div>
+            <p class="input-headline">2.2 Business Licence</p>
+            <div class="form-mine__input-wrap withbtn licence">
+                <div class="form-mine__input-item">
+                    <p class="input-title">License Issuing Authority</p>
+                    <img class="exclam-img" src="images/exclamation.svg" alt="">
+                    <input class="form-input" type="text" placeholder="Urna molestie">
+                </div>
+                <div class="form-mine__input-item">
+                    <p class="input-title">Licence number</p>
+                    <img class="exclam-img" src="images/exclamation.svg" alt="">
+                    <input class="form-input" type="text" placeholder="Urna molestie">
+                </div>
+                <div class="form-mine__input-item">
+                    <p class="input-title">Issuing Date</p>
+                    <img class="exclam-img" src="images/exclamation.svg" alt="">
+                    <div class="form-datepicker-wrap">
+                        <input class="form-input" type="text" placeholder="12.12.2016" autocomplete="off" name="filter-date" id="filter-date">
+                        <img class="datepicker-img" src="images/calendar.svg" alt="">
+                    </div>    
+                </div>
+                <div class="form-mine__input-item">
+                    <p class="input-title">Expiry Date</p>
+                    <img class="exclam-img" src="images/exclamation.svg" alt="">
+                    <div class="form-datepicker-wrap">
+                        <input class="form-input" type="text" placeholder="12.12.2024" autocomplete="off" name="filter-date" id="filter-date">
+                        <img class="datepicker-img" src="images/calendar.svg" alt="">
+                    </div>    
+                </div>
+            </div>
+            <div class="form-mine__add-item-wrap">
+                <button class="form-mine__add-item"><span>&plus;</span> Add another license</button>
+            </div>
+            <p class="input-headline">2.3 Bank Information*</p>
+            <div class="form-mine__input-wrap">
+                <div class="form-mine__input-item">
+                    <p class="input-title">Bank name</p>
+                    <img class="exclam-img" src="images/exclamation.svg" alt="">
+                    <input class="form-input" type="text" placeholder="ex. HSBC Bank">
+                </div>
+                <div class="form-mine__input-item">
+                    <p class="input-title">Bank account holder</p>
+                    <img class="exclam-img" src="images/exclamation.svg" alt="">
+                    <input class="form-input" type="text" placeholder="еx. Andrzej Hunt">
+                </div>
+            </div>
+            <div class="form-mine__input-wrap withbtn">
+                <div class="form-mine__input-item">
+                    <p class="input-title">IBAN/Acc. number</p>
+                    <img class="exclam-img" src="images/exclamation.svg" alt="">
+                    <input class="form-input" type="text" placeholder="ех. GB29NWBK60161331926819">
+                </div>
+                <div class="form-mine__input-item">
+                    <p class="input-title">SWIFT/BIC/Sort code</p>
+                    <img class="exclam-img" src="images/exclamation.svg" alt="">
+                    <input class="form-input" type="text" placeholder="еx. ABCEGB2LXXX">
+                </div>
+            </div>
+            <div class="form-mine__add-item-wrap">
+                <button class="form-mine__add-item"><span>&plus;</span> Add another bank</button>
+            </div>
+            <p class="input-headline">2.4 Transactions</p>
+            <div class="form-mine__input-wrap">
+                <div class="form-mine__input-item">
+                    <p class="input-title">Turnover Last year</p>
+                    <img class="exclam-img" src="images/exclamation.svg" alt="">
+                    <input class="form-input" type="text" placeholder="Sit elementum">
+                </div>
+                <div class="form-mine__input-item">
+                    <p class="input-title">Transaction Currency (-ies)</p>
+                    <img class="exclam-img" src="images/exclamation.svg" alt="">
+                    <input class="form-input" type="text" placeholder="Urna molestie">
+                </div>
+            </div>
+            <div class="form-mine__input-wrap">
+                <div class="form-mine__input-item">
+                    <p class="input-title">Sales Volume per month</p>
+                    <img class="exclam-img" src="images/exclamation.svg" alt="">
+                    <input class="form-input" type="text" placeholder="Sit elementum">
+                </div>
+                <div class="form-mine__input-item">
+                    <p class="input-title">Volume of Transactions per month</p>
+                    <img class="exclam-img" src="images/exclamation.svg" alt="">
+                    <input class="form-input" type="text" placeholder="Sit elementum">
+                </div>
+            </div>
+            <div class="form-mine__input-wrap">
+                <div class="form-mine__input-item single">
+                    <p class="input-title">Maximum of Transactions per month</p>
+                    <img class="exclam-img" src="images/exclamation.svg" alt="">
+                    <input class="form-input" type="text" placeholder="Urna molestie">
+                </div>                                            
+            </div>
+            <div class="form-mine__btn-red-wrap">
+                <a class="form-mine__btn-red save" href="" target="_blank">Save</a>
+                <a class="form-mine__btn-red" href="" target="_blank">Save and continue</a>
+            </div>           
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<script src="js/jquery.datetimepicker.full.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
